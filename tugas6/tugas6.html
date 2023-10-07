@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        text-align: start;
+    }
+    img{
+        width: 70px;
+        margin-right: 30px;
+    }
+    hr{
+        height: 2px;
+        background-color: darkblue;
+        width: 80%;
+    }
+    .header{
+        text-align: center;
+    }
+</style>
+<body>
+    <center>
+    <table>
+        <tr>
+            <td>
+                <img src="logo.png" alt="">
+            </td>
+            <td>
+                <center>
+                <h2>PERPUSTAKAN</h2>
+                <h2>Universitas Indraprasta</h2>
+                <h2>PGRI</h2>
+                </center>
+            </td>
+        </tr>
+    </table>
+    <hr>
+    <br>
+    <b><p>Formulir Registrasi Anggota</p></b>
+    <form action="">  
+        <table>
+            <tr>
+                <td colspan="2">
+                    <p><b>Isikan data diri Anda :</b></p>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="nama">Nama</label></td>
+                <td> :</td>
+                <td>
+                    <input type="text" id="nama" name="nama">
+                </td>
+            </tr>
+            <tr>
+                <td><label>Jenis Kelamin</label></td>
+                <td> :</td>
+                <td>
+                    <input type="radio" id="laki" name="laki" value="Laki-laki">
+                    <label for="laki">Laki-laki</label>
+                    <input type="radio" id="wanita" name="wanita" value="Perempuan">
+                    <label for="laki">Perempuan</label>
+                </td>
+            </tr>
+            <!-- <tr>
+                <td><label for="alamat">ALAMAT</label></td>
+                <td> :</td>
+                <td>
+                    <textarea name="alamat" id="alamat" cols="" rows=""></textarea>
+                </td>
+            </tr> -->
+            <tr>
+                <td><label for="dob">TGL LAHIR</label></td>
+                <td> :</td>
+                <td>
+                    <input type="date" id="dob" name="dob">
+                </td>
+            </tr>
+            <tr>
+                <td><label for="npm">NPM</label></td>
+                <td> :</td>
+                <td>
+                    <input type="text" name="npm" id="npm">
+                </td>
+            </tr>
+            <tr>
+                <td><label>Fakultas</label></td>
+                <td> :</td>
+                <td>
+                    <input type="radio" id="ftmipa" name="Fakultas" value="ftmipa">
+                    <label for="ftmipa">FTMIPA</label>
+                    <input type="radio" id="fipps" name="Fakultas" value="fipps">
+                    <label for="fipps">FIPPS</label>
+                    <input type="radio" id="fbs" name="Fakultas" value="fbs">
+                    <label for="fbs">FBS</label>
+                    <input type="radio" id="pasca" name="Fakultas" value="pasca">
+                    <label for="pasca">PASCA SARJANA</label>
+                </td>
+            </tr>
+            <tr>
+                <td><label>Kategori Buku</label></td>
+                <td> :</td>
+                <td>
+                    <input type="checkbox" id="pend" name="pend" value="pend">
+                    <label for="pend">Pendidikan</label>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td>
+                    <input type="checkbox" id="sos" name="sos" value="sos">
+                    <label for="sos">Ilmu Sosial</label>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td>
+                    <input type="checkbox" id="alam" name="alam" value="alam">
+                    <label for="alam">Ilmu Alam</label>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td>
+                    <input type="checkbox" id="agama" name="agama" value="agama">
+                    <label for="agama">Agama</label>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td>
+                    <input type="checkbox" id="budaya" name="budaya" value="budaya">
+                    <label for="budaya">Budaya</label>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td>
+                    <input type="checkbox" id="mipa" name="mipa" value="mipa">
+                    <label for="mipa">Matematika & Sains</label>
+                </td>
+            </tr>
+        </table>
+        <br>
+        <input type="submit" name="submit" id="submit" value="DAFTAR">
+        <input type="reset" name="cancel" id="cancel" value="Muat Ulang">
+        <hr>
+    </form>
+    </center>
+</body>
+</html>
